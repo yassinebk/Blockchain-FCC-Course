@@ -1,11 +1,14 @@
-const ethers = require("ethers");
-const { getJsonWalletAddress } = require("ethers/lib/utils");
-require('dotenv').config();
-const fs = require("fs-extra")
+import { ethers } from "ethers";
+import * as fs from "fs-extra";
+import "dotenv/config";
 
 async function main() {
     const provider = new ethers.providers.JsonRpcProvider(process.env.URI);
-    const wallet = new ethers.Wallet(process.env.WALLET_ADDRESS, provider);
+    // const encryptedKeyJson = fs.readFileSync("encryptedKey.json", "utf8");
+    // let wallet = new ethers.Wallet.fromEncryptedJsonSync(encryptedKeyJson, process.env.PRIVATE_KEY_PASSWORD);
+    // wallet = wallet.connect(provider);
+
+    const wallet = new ethers.Wallet(process.env.PRIVATE_KEY!,provider)
     console.log(wallet);
 
     const abi = fs.readFileSync("./compiledContracts/SimpleStorage_sol_SimpleStorage.abi", "utf8");

@@ -1,3 +1,4 @@
 .env
 compiledContracts
 node_modules
+encryptedKey.json
