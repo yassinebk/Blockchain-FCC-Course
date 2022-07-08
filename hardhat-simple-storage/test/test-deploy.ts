@@ -1,12 +1,15 @@
 
 const { expect,assert } = require("chai");
 const { ethers } = require("hardhat");
+import { SimpleStorage,SimpleStorage__factory} from "../typechain-types"
 
 describe("SimpleStorage Contract", function () {
-  let simpleStorageFactory;
-  let simpleStorage:any;
+  let simpleStorageFactory: SimpleStorage__factory;
+  let simpleStorage:SimpleStorage;
+  
   beforeEach(async function()  {
      simpleStorageFactory= await ethers.getContractFactory("SimpleStorage");
+     
     simpleStorage = await simpleStorageFactory.deploy();
   })
 

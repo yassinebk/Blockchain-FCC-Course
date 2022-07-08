@@ -3,6 +3,7 @@ import "@nomiclabs/hardhat-waffle";
 import "@nomiclabs/hardhat-etherscan";
 import "hardhat-gas-reporter"
 import "dotenv/config";
+import "@typechain/hardhat"
 import "solidity-coverage"
 import "./tasks"
 
