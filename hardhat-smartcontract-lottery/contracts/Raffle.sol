@@ -53,6 +53,8 @@ contract Raffle is VRFConsumerBaseV2, KeeperCompatibleInterface {
     event RaffleEnter(address indexed player);
     event RequestRaffleWinner(uint256 indexed requestId);
     event WinnerPicked(address indexed winner);
+    
+
 
     constructor(
         address VRFCoordinatorV2,
@@ -183,5 +185,9 @@ contract Raffle is VRFConsumerBaseV2, KeeperCompatibleInterface {
 
     function getInterval() public view returns (uint256) {
         return i_interval;
+    }
+
+    function getLastTimeStamp() public view returns (uint256){
+        return s_lastTimeStamp;
     }
 }

@@ -56,7 +56,7 @@ const DeployFunc: DeployFunction = async (hre: HardhatRuntimeEnvironment) => {
     console.log('here');
 
     if (!developmentChains.includes(network.name)) {
-        verify(raffle.address, args)
+        await verify(raffle.address, args)
     }
     log("Raffle address deployed at :", raffle.address);
 };

@@ -1,0 +1,15 @@
+- webofknowledge.com use it for searching reactions by methods or chemical name. I like the feature to filter by times cited and you can also look which articles cited certain article and where the searched article was citied (good for credibility check)
+
+- https://scifinder.cas.org/ & https://www.reaxys.com/ reaction & molecule searching. They have different algorithms (I believe) so its usefull to check on both. Also http://ccd.chemnetbase.com/ for searching chemicals (I don't use that very much, but If you do not have access to scifinder or reaxys, there is a way around)
+
+- https://chemsearch.kovsky.net/ Life and time save when checking references from articles.
+
+- https://www.sigmaaldrich.com/chemistry/stockroom-reagents/learning-center/technical-library/mass-molarity-calculator.html We all know how to do this, but I am usually just to lazy to calculate this ;)
+
+- https://www.nmrdb.org/resurector/index.shtml?v=v2.52.0 if you are more visual guy like me, this can make NMR spectra from in-line description and it is pretty good in my hmu
+
+- https://signalsnotebook.perkinelmer.cloud/authIDP/login using as a labwork notebook (I have access through university). Do you have any other free lab online notebooks I could use?
+
+- https://www.organic-chemistry.org/ quick reaction check. Not a perfect website, but it provides a lot of useful data.
+
+- https://libgen.is/ access to all the books I need. I know you shouldn't dowload pirated versions, but I can't imagine buying all the books when you want to check just one chapter or something like that lol
