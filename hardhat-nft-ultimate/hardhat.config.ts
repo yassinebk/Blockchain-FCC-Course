@@ -1,8 +1,8 @@
 import * as dotenv from "dotenv";
 
 import { HardhatUserConfig, task } from "hardhat/config";
+
 import "@nomiclabs/hardhat-etherscan";
-import "@nomiclabs/hardhat-ethers"
 import "@nomiclabs/hardhat-waffle";
 import "@typechain/hardhat";
 import "hardhat-gas-reporter";
@@ -28,32 +28,15 @@ const config: HardhatUserConfig = {
   // solidity: "0.8.4",
   solidity: {
     compilers: [
-  {
-        version: "0.7.0",
-      },
       {
         version: "0.8.8",
       },
       {
         version: "0.6.6",
       },
-
-      {
-        version: "0.4.19",
-      },
-      {
-        version: "0.6.12",
-      }
     ],
   },
   networks: {
-    hardhat: {
-      chainId: 31337,
-      forking: {
-        url: process.env.MAINNET_RPC_URL!
-      }
-
-    },
     ropsten: {
       url: process.env.ROPSTEN_URL || "",
       accounts:

@@ -31,5 +31,8 @@
     "lint": "solhint 'contracts/*.sol'",
     "lint:fix": "solhint 'contracts/**/*.sol' --fix",
     "format": "prettier --write ."
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.7.0"
   }
 }

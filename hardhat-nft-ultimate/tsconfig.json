@@ -8,7 +8,7 @@
     "declaration": true
   },
   "include": [
-    "./scripts/*",
+    "./scripts",
     "./test",
     "./typechain/*",
     "./deploy/*",
