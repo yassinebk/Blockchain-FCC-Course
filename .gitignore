@@ -1,1 +1,4 @@
 typechain-types
+node_modules
+artifacts
+cache
