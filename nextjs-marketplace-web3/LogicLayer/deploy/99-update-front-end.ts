@@ -4,9 +4,9 @@ import fs from "fs";
 import { setFlagsFromString } from "v8";
 
 const frontEndABIFilesLocation =
-  "/workspaces/Blockchain-FCC-Course/nextjs-marketplace-web3/front/constants/";
+  "/workspaces/Blockchain-FCC-Course/nextjs-marketplace-web3/front-moralis/constants/";
 const frontEndContractsFile =
-  "/workspaces/Blockchain-FCC-Course/nextjs-marketplace-web3/front/constants/networkMapping.json";
+  "/workspaces/Blockchain-FCC-Course/nextjs-marketplace-web3/front-moralis/constants/networkMapping.json";
 const UpdateFront = async () => {
   if (process.env.UPDATE_FRONT_END) {
     console.log("Updating front end");

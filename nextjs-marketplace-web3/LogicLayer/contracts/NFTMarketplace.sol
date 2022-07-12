@@ -84,8 +84,9 @@ modifier isListed(address NFTAddress, uint256 tokenId){
     _;
 }
 
+
 constructor(){
-    i_owner=msg.sender;
+ i_owner=msg.sender;
 }
 
 /*
